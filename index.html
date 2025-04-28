@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Campus Events App - Login</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="text-center">
+
+<div class="container mt-5">
+  <h1>Login to Campus Events</h1>
+  <div class="alert alert-info mt-3" role="alert">
+  <h4 class="alert-heading">Demo Login Info</h4>
+  <p>Please log in using the credentials below.<br>
+  <strong>Username:</strong> student<br>
+  <strong>Password:</strong> 1234</p>
+  <hr>
+  <p class="mb-0">Note: This is a demo setup without a real database. Authentication is simulated for testing purposes only.</p>
+</div>
+  
+  <form id="loginForm" class="mt-4">
+    <div class="form-group mb-3">
+      <input type="text" class="form-control" id="username" placeholder="Username" required>
+    </div>
+    <div class="form-group mb-3">
+      <input type="password" class="form-control" id="password" placeholder="Password" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Login</button>
+  </form>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="login.js"></script>
+</body>
+</html>
